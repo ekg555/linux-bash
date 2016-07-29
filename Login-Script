@@ -1,0 +1,9 @@
+#!/bash/bin
+echo -n "Go To [XYZ] Server [Y/n]? "
+read line
+case "$line" in
+    y|Y) ssh [$USER]@[$IP]
+        ;;
+    n|N) echo "okay."
+        ;;
+esac
