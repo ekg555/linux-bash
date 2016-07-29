@@ -1,2 +1,0 @@
-# linux-bash
-# linux-bash
